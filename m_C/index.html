@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../file.css"> -->
+    <title>Estudos DOM</title>
+    <style>
+        body{
+            background: rgb(5, 33, 93);
+            color: aliceblue;
+            font: normal 20pt "Times New Roman";
+        }
+    </style>
+</head>
+<body>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong></p>
+    <div id="messagem1">Clique em mim</div>
+    <div name="msg2">Clique em mim²</div>
+    <div class="msg3">Clique em mim³</div>
+
+    <script>
+        window.document.write("olá mundo²<br>")
+        var p1 = document.getElementsByTagName('p')[0];//primeiro paragrafo que me ocorreu
+        window.document.write(p1.innerText)//apenas o texto
+        window.document.write(p1.innerText)//vem o texto com formatação HTML
+        p1.style.color = 'blue'
+
+        var d = document.getElementById('messagem1')
+        d.style.background = 'black'
+
+        var d2 = document.getElementsByName('msg2')[0]
+        d2.style.color = 'red'
+
+        var d3 = document.getElementsByClassName('msg3')[0]
+        d3.style.color = 'yellow'
+
+        var d3c = document.querySelector('div.msg3')
+        d3c.style.color = 'green'
+    </script>
+</body>
+</html>

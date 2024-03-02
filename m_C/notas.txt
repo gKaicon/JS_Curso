@@ -1,0 +1,25 @@
+DOM = Document Object Model
+    instalar o Live Server e o Node Exec, só roda dentro do navegador
+Árvore DOM
+    window - raiz
+        location;
+        document:
+            html:
+                head:
+                    meta;
+                    title;
+                    ....
+                body:
+                    h1;
+                    p:
+                        strong
+                    div;
+                    ...;
+        history.
+
+Manipulação do DOM por:
+    marca - getElementsByTagName()
+    id - getElementsById - #
+    name - getElementsByName -
+    class - getElementsByClassName - .
+    seletor - querrySelector

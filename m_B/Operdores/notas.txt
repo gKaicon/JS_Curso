@@ -1,0 +1,32 @@
+Tipos de operadores:
+.aritméticos:
+    +; -; *; /; %; **.
+        precedencia de execução: 
+        ();
+        **;
+        *;/;%;
+        +-.
+.atribuição:
+    = ; 
+    += ;
+    -= ;
+    *= ; 
+    /= ; 
+    **= ; 
+    %= ; 
+    ++ ; 
+    -- .
+.relacionais:
+    <;
+    >;
+    >=;
+    <=;
+    ==;
+    !=.
+.lógicos e a precedencia de execução:
+    !;
+    &&;
+    ||.
+
+.ternário:
+<pergunta> ? <se true> : <se false>
