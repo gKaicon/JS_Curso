@@ -1,0 +1,11 @@
+Sequencia
+
+
+Condições simples
+    if
+
+Condições compostas
+    if, else
+Condições alinhadas
+
+Condições multiplas

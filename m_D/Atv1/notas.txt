@@ -1,0 +1,6 @@
+body = azul
+ header Titulo
+ section 
+    div
+    div
+ footer

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Identificador</title>
+</head>
+
+<body>
+    <header>
+        <h1>Identificador</h1>
+    </header>
+
+    <section>
+        <div>
+            <label>Ano Nascimento: </label>
+            <input type="number" name="txtAno" id="txtAno" max="">
+            <p>Sexo: </p>
+            <input type="radio" name="radioSex" id="masc" checked>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="radioSex" id="femi">
+            <label for="femi">Feminino</label>
+            <br>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res" style="text-align: center;">
+            Preencha para ver os resultados
+        </div>
+    </section>
+    <footer>Copyright <strong>Gabriel Kaicon</strong>. 2024</footer>
+    <script src="funcoes.js"></script>
+</body>
+
+</html>
