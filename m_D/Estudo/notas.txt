@@ -1,11 +1,15 @@
-Sequencia
-
+Temos que ter sequencia ao lidar com estruturas de condição
 
 Condições simples
     if
-
 Condições compostas
     if, else
 Condições alinhadas
-
+    if{
+        if, else
+    }
+    else{
+        if, else
+    }
 Condições multiplas
+    switch cas
