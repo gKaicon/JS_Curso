@@ -19,6 +19,6 @@ n1.toFixed(2).replace('.',',') //2 casas decimais, só que separadas por virgula
 n1.toLocaleString(pt-BR, {style: 'currency', currency:'BRL'}) - vai imprimir em forma de salário
 
 
-var = 
-let =  
-const = 
+var = Use var se precisar de escopo de função ou quiser aproveitar o hoisting.
+let = Prefira let quando deseja escopo de bloco e a possibilidade de reatribuição.  
+const = Use const quando deseja uma variável constante que não será reatribuída após a inicialização.

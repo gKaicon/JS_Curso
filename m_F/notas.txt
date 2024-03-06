@@ -1,0 +1,13 @@
+variaveis compostas = array
+funções:
+    metodo
+    evento
+    parametro
+proximos passos:
+    functions
+    objetos
+    modularização
+    regex
+    json
+    ajax
+    nodejs
