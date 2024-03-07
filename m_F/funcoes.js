@@ -33,3 +33,17 @@ function fatorial(n) {
     }
 }
 console.log(fatorial(5))
+
+//se arranjo p!=n, se permutacao p==n
+function arranjoPermutacaoSimples(n, p) {
+    if (p==0) {
+        return 1;
+    }
+    else{
+        return n * arranjoPermutacaoSimples(n-1, p-1)
+    }
+}
+//arranjo
+console.log(arranjoPermutacaoSimples(5, 2))//20
+//permutacao
+console.log(arranjoPermutacaoSimples(5, 5))//120

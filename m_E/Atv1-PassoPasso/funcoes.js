@@ -2,7 +2,8 @@ function contar() {
     var itxt = document.getElementById('inicio')
     var ftxt = document.getElementById('fim')
     var incrementtxt = document.getElementById('incremento')
-
+    var divRes = document.getElementById('res')
+    
     if (itxt.value.length == 0 || ftxt.value.length == 0 || incrementtxt.value.length == 0) {
         window.alert(`Não foi possível realizar a contagem`)
         divRes.innerHTML = 'Impossível Contar!'
@@ -11,7 +12,7 @@ function contar() {
         var i = Number(itxt.value)
         var f = Number(ftxt.value)
         var increment = Number(incrementtxt.value)
-        var divRes = document.getElementById('res')
+        
 
         if(increment <= 0){
             increment = 1
